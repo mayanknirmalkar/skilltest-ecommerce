@@ -19,7 +19,13 @@ This is an e-commerce application built with React for the frontend, Redux Toolk
 - **React Router**: Library for navigation within the application.
 - **axios**: Promise-based HTTP client for making API requests.
 - **redux-persist**: Library for persisting Redux state.
-- **Other Dependencies**: [List any other major dependencies or APIs used in your application.]
+
+## Usage
+- Visit the homepage to explore available products.
+- Click on a product to view its details.
+- For administrators:
+- Add products to the shopping cart.
+- Access the /add route to add new products to the store.
 
 ## Getting Started
 
@@ -29,21 +35,11 @@ This is an e-commerce application built with React for the frontend, Redux Toolk
    git clone https://github.com/mayanknirmalkar/skilltest-ecommerce.git
 Install dependencies:
 
-bash
-Copy code
+```bash
 cd skilltest-ecommerce-app
 npm install
+
+
 Run the application:
-
-bash
-Copy code
-npm start
-The app will be running at http://localhost:3000.
-
-Usage
-Visit the homepage to explore available products.
-Click on a product to view its details.
-Add products to the shopping cart.
-Proceed to the cart page to review and complete the purchase.
-For administrators:
-Access the /add route to add new products to the store.
+npm run dev
+The app will be running at http://localhost:5173.
